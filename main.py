@@ -7,7 +7,9 @@ def exit_app():
     exit()
 
 if __name__ == '__main__':
+    print(' SHIT NOTEBOOK '.center(30, '*'))
     while True:
-        inp = input('sn> ')
+        inp = input('shit> ')
         if inp == 'exit': exit_app()
         handleInput.handleInput(inp)
+        
